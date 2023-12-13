@@ -1,1 +1,4 @@
-export const environment = {};
+export const environment = {
+    apiURL: new URL('https://localhost:7111/api'),
+    userToken: 'userToken',
+};

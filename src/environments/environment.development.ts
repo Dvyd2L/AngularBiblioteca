@@ -1,3 +1,4 @@
 export const environment = {
-    apiURL: 'https://localhost:7111/api',
+    apiURL: new URL('https://localhost:7111/api'),
+    userToken: 'userToken',
 };

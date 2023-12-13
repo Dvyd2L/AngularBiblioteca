@@ -8,7 +8,7 @@ import { inject } from '@angular/core';
 export const canActivate = (authGuard: AuthGuardService = inject(AuthGuardService)) => authGuard.isLoggedIn();
 
 export const routes: Routes = [
-  { path: '', redirectTo: '/editoriales', pathMatch: 'full' },
+  { path: '', redirectTo: '/editoirales', pathMatch: 'full' },
   { path: 'login', component: LoginComponent },
   {
     path: 'editoirales',
